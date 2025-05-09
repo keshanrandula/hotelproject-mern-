@@ -1,0 +1,77 @@
+/* Book.css */
+.book-form-container {
+    min-height: 100vh;
+  }
+  
+  .booking-image {
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 0;
+  }
+  
+  .card-header {
+    padding: 1.5rem;
+  }
+  
+  .form-control, .form-select {
+    padding: 0.50rem 5rem;
+    border-radius: 8px;
+    border: 1px solid #115da9;
+    transition: all 0.3s;
+  }
+  
+  .form-control:focus, .form-select:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(16, 84, 188, 0.25);
+  }
+  
+  .btn-primary {
+    background-color: #0d6efd;
+    border: none;
+    padding: 0.75rem;
+    font-weight: 500;
+    transition: all 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0b5ed7;
+    transform: translateY(-2px);
+  }
+  
+  .btn-primary:active {
+    transform: translateY(0);
+  }
+  
+  label {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  
+  .alert {
+    border-radius: 8px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 992px) {
+    .booking-image {
+      display: none;
+    }
+    
+    .col-lg-6 {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .card-header {
+      padding: 1rem;
+    }
+    
+    h2 {
+      font-size: 1.5rem;
+    }
+  }

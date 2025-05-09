@@ -1,0 +1,97 @@
+/* Profile Page Styles */
+.profile-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .profile-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 1rem;
+    border: 3px solid #3498db;
+  }
+  
+  .profile-details {
+    margin-bottom: 1.5rem;
+  }
+  
+  .profile-detail {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .profile-label {
+    font-weight: 600;
+    color: #2c3e50;
+  }
+  
+  .profile-value {
+    color: #7f8c8d;
+  }
+  
+  .profile-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .profile-button {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .profile-button.edit {
+    background-color: #3498db;
+    color: white;
+    border: none;
+  }
+  
+  .profile-button.cancel {
+    background-color: #f1f1f1;
+    color: #7f8c8d;
+    border: 1px solid #ddd;
+  }
+  
+  .profile-button.save {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+  }
+  
+  .profile-button.delete {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+  }
+  
+  .profile-button:hover {
+    opacity: 0.9;
+  }
+  
+  /* Edit Mode Styles */
+  .profile-edit-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .profile-avatar-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .profile-avatar-upload input[type="file"] {
+    margin-top: 0.5rem;
+  }
